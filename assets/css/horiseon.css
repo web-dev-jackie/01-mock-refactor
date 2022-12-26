@@ -1,0 +1,139 @@
+/* 
+
+#2272bb (royalish blue) section background
+#2a607c (darker teal-blue) navbar
+#3589bd (medium blue) sidebar
+#d9dcd6 (gray) background
+#f1f1f1 (white) text
+
+*/
+
+/* stylelint-disable selector-list-comma-newline-after */
+body {
+    background: #d9dcd6 !important;  
+}
+
+.navbar-brand {
+   color: #f1f1f1cf !important; 
+}
+.navbar-nav {
+   color: #f1f1f1cf !important; 
+}
+.navbar {
+     background: #2a607c !important; 
+}
+.nav-item {
+     color: #f1f1f1cf !important;
+}
+#jumbotron {
+   background: #d9dcd6 !important;  
+}
+#seo {
+ background: #3589bd !important; 
+}
+#orm {
+ background: #3589bd !important; 
+}
+#smm {
+ background: #3589bd !important; 
+}
+#sidebar {
+  background: #2272bb!important; 
+}
+
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "trebuchet";
+  font-size: 2.25rem;
+ 
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "gill sans";
+  color: #f1f1f1cf !important;   
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+/*
+ * Blog name and description
+ */
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
+
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+
+
+/*
+ * Footer
+ */
+.footer {
+  padding: 2.5rem 0;
+  text-align: center;
+  background-color: #d9dcd6;
+  border-top: .05rem solid #e5e5e5;
+}
+.footer p:last-child {
+  margin-bottom: 0;
+}
+
+#footer {
+  color: #010101 !important; 
+}

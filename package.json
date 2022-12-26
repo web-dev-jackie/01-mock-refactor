@@ -1,0 +1,20 @@
+{
+  "name": "Horiseon",
+  "version": "1.0.0",
+  "decription": "refactor",
+  "main": "index.html",
+  "keywords": [],
+  "author": "Jacqueline Heatley <heatleyj7@icloud.com> (https://github.com/heatleyj7.git)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-dev-jackie/01-html-git-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/web-dev-jackie/01-html-git-css/issues"
+  },
+  "homepage": "https://github.com/web-dev-jackie/01-html-git-css#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

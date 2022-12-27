@@ -2,83 +2,36 @@
 
 ## Description
 
-Horiseon Marketing is a mock client who wants to transform their existing website with symantic code. 
+Horiseon Marketing is a mock client updating their existing codebase. This project is being built to exceed client expectations by integrating modern HTML and CSS. The main takeaways are organizing classes and id's within CSS and structuring HTML with tags that will aid in SEO, such as section and article. 
 
-- What was your motivation?
-** This is a school project. 
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-** This project was built to meet and exceed client needs by integrating symantic HTML and CSS.**
-** The main concerns are organizing classes and id's, and structuring HTML with correct tags such as ssection and article. **
-- What problem does it solve? 
-** The client now has a base to start adding additional functionality such as JavaScript. **
-- What did you learn?
-** The existing code worked, but it's not good in the long run 
-** The breakpoints
-** wrappers
-** bootstrap grid
-** eyedropper to get hex
-** 
+The client now has a base to start adding additional pages, components and features through HTML, CSS, JavaScript and beyond.
+Additions include: 
+- Breakpoints,
+- Wrappers,
+- Classes,
+- Id's,
+- Tags,
+- Bootstrap grid and components.
 
-## Table of Contents (Optional)
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+As we're here to refactor code, we simply frame the HTML to include a navbar, jumbotron, one row with two columns and a footer. The internal navigtion uses anchor tags and id's to guide the user.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Option 1: 
+1. Download as a .zip,
+2. Open in terminal, `code .`,
+3. In VS Code, `npm install -s`,
+4. In VS Code, right click on index.html and open in default browser.
 
-download as a .zip
-open in terminal, "code ."
-in vs code, npm install -s
-in vs code, right click on index.html and open in default browser
+Option 2: 
 
-alternatively, github pages link: 
+- Alternatively, tap GitHub Pages link: https://web-dev-jackie.github.io/01-mock-refactor/
 
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+- Bootstrap Examples: https://getbootstrap.com/docs/4.0/examples/
+- Professional README Guide: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+- Markdown guide: https://www.markdownguide.org/cheat-sheet/ 
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
